@@ -46,7 +46,6 @@ input[type="checkbox"]:checked {
   gap: 0.5rem;
   background-color: var(--color-danger);
   color: var(--always-white);
-  max-width: 20.4375rem;
   padding: 0.75rem 2.5rem;
   border-radius: 12px;
   white-space: nowrap; /* Impede quebra de linha */
