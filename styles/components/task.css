@@ -35,3 +35,19 @@ input[type="checkbox"]:checked {
 .delete-icon {
   margin-left: auto;
 }
+
+.hide-task {
+  display: none;
+}
+
+.aviso {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-danger);
+  color: var(--always-white);
+  max-width: 20.4375rem;
+  padding: 0.75rem 2.5rem;
+  border-radius: 12px;
+  white-space: nowrap; /* Impede quebra de linha */
+}
