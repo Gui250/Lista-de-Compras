@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="logo" />
+    </header>
+
+    <main>
+      <div class="back-btn-container">
+        <a class="back-btn" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="none"
+          >
+            <path
+              d="M3.99982 11.9998L19.9998 11.9998"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M8.99963 17C8.99963 17 3.99968 13.3176 3.99966 12C3.99965 10.6824 8.99966 7 8.99966 7"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          Voltar
+        </a>
+        <div class="container">
+          <div class="title-container">
+            <h1>Compras na semana</h1>
+          </div>
+
+          <div class="add-item-input-container">
+            <input
+              class="input-search"
+              id="input-search"
+              type="text"
+              placeholder="Adicione um novo item"
+            />
+            <button id="btn-add" class="button-add">Adicionar item</button>
+          </div>
+
+          <div id="tasks" class="tasks"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

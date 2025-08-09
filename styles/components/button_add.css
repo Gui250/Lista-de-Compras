@@ -1,0 +1,9 @@
+.button-add {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  width: 10rem;
+  border-radius: 12px;
+  background-color: var(--color-brand);
+  color: var(--always-white);
+  font-family: "Inter", sans-serif;
+}

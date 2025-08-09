@@ -1,0 +1,12 @@
+.input-search {
+  padding: 0.6875rem 1.125rem;
+  border: none;
+  border-radius: 12px;
+  width: 28.375rem;
+  border: 1px solid var(--border-primary);
+  margin-right: 1rem;
+}
+
+.input-search::placeholder {
+  color: var(--content-tertiary);
+}

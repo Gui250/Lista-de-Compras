@@ -1,0 +1,37 @@
+.tasks {
+  margin-top: 2.5rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--background-secondary);
+  margin-bottom: 0.75rem;
+  font-family: "Inter", sans-serif;
+  color: var(--content-secondary);
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  appearance: none; /* Remove o estilo padrão */
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--color-brand);
+  background-image: url("../../assets/Frame.svg");
+  background-position: center;
+}
+
+.delete-icon {
+  margin-left: auto;
+}

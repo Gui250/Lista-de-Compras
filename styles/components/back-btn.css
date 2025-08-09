@@ -1,0 +1,13 @@
+.back-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-brand);
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  margin-top: 3.875rem;
+}
+
+.back-btn svg path {
+  color: var(--color-brand);
+}
